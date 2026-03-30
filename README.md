@@ -131,3 +131,6 @@ We place the files with ASCII images in this directory, and then edit the config
 }
 ```
 This is roughly what my file looks like; at the end, I've specified the path to the image file. You'll need to change it to your own path.
+
+---
+Big thanks to discord user `@opelzafiri` for uploading fonts
