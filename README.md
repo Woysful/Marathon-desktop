@@ -31,7 +31,7 @@ You need to place one widget on the top panel and one on the bottom panel (you c
 Go to the Panel Colorizer settings on the bottom panel, navigate to the Appearance section, select the Panel element, then enable customization for the Normal state below. On the Color tab, select `Color source: Image` and specify the path to the `background_noise.png` file.
 
 Now for the top panel.
-In the Panel Colorizer settings, hide the native panel. Then, on the Preset Overrides tab, you’ll need to create several overrides that can be applied to individual widgets.
+In the Panel Colorizer settings, hide the native panel. Pick a `Widget` from dropdown list and set `margin 6` for both top and bottom in shape menu. Then, on the Preset Overrides tab, you’ll need to create several overrides that can be applied to individual widgets.
 - Disable - `Color -> Alpha 0.00` Apply to every spacer
 - Round_Left / Round_Right - `Shape -> Radius 20` - Widgets in the left corner
 - Round_Sharp - `Shape -> Radius 6` - Widgets in the right corner
