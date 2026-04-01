@@ -2,7 +2,10 @@
 
 It’s important to note that this guide is intended for KDE Plasma users, but some of the content—such as desktop wallpapers or ASCII art—can also be used with other desktop environments or even other operating systems.
 
-### 1. Taskbar
+### 1. Cursors
+Go grab them [here](https://github.com/Woysful/Marathon-cursor)
+
+### 2. Taskbar
 First, you should configure the top and bottom panels, because their sizes will affect the desktop grid.
 I’ll list my settings as recommendations, but feel free to change them. Keep in mind that if you change the sizes, you’ll have to adjust the desktop wallpaper to fit your grid yourself (I’ll go into more detail about this below).
 
@@ -16,7 +19,7 @@ On the bottom panel, at the bottom right, I placed a button to hide all windows,
 ```
 Length: 100
 Thickness: 1
-Custom color: #7f7f7f
+Custom color: #4c4c4c
 Opacity: 30
 ```
 The window hiding, settings, and mail widgets are additionally wrapped in a `Margin Separator` to reduce their size.
@@ -96,12 +99,12 @@ Do the same for the second date widget:
 
 Customize the remaining widgets as you see fit.
 
-### 2. Desktop background
+### 3. Desktop background
 I didn’t mention the recommended sizes for the top and bottom panels for no reason, because by following these dimensions and setting the icon size to small-medium, you’ll be able to use my desktop image right away. But for those who’ve decided to change the dimensions, you’ll need to edit the image. Luckily for you, I’ve attached an Affinity project file, so this task will be much easier.
 
 First, you’ll need to calculate the desktop grid size. To do this, I temporarily enable the top panel background display, arrange some files on the desktop vertically, and count their maximum number. Then, in the editor, I measure the distance between the top and bottom panels and divide that value by the number of items. I do the same horizontally. This way, I can build a grid and determine the size of each cell. In my case, it’s 99x96 pixels.
 
-### 3. Terminal
+### 4. Terminal
 I use Konsole and fastfetch, so the steps in your setup may differ.
 
 **Konsole color palette:**
