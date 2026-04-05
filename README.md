@@ -100,7 +100,7 @@ Do the same for the second date widget:
 Customize the remaining widgets as you see fit.
 
 ### 3. Desktop background
-I didn’t mention the recommended sizes for the top and bottom panels for no reason, because by following these dimensions and setting the icon size to small-medium, you’ll be able to use my desktop image right away. But for those who’ve decided to change the dimensions, you’ll need to edit the image. Luckily for you, I’ve attached an Affinity project file, so this task will be much easier.
+I didn’t mention the recommended sizes for the top and bottom panels for no reason, because by following these dimensions and setting the icon size to `small`, you’ll be able to use my desktop image right away. But for those who’ve decided to change the dimensions, you’ll need to edit the image. Luckily for you, I’ve attached an Affinity project file, so this task will be much easier.
 
 First, you’ll need to calculate the desktop grid size. To do this, I temporarily enable the top panel background display, arrange some files on the desktop vertically, and count their maximum number. Then, in the editor, I measure the distance between the top and bottom panels and divide that value by the number of items. I do the same horizontally. This way, I can build a grid and determine the size of each cell. In my case, it’s 99x96 pixels.
 
