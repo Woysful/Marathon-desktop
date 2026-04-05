@@ -28,7 +28,7 @@ Let’s move on to configuring the widgets
 
 **Panel Colorizer**.
 
-Answering the question: why not just share presets? Because Panel Colorizer barelly hold itself together and simply refuses to save the preset configuration file for some reason. So you’ll have to configure everything manually.
+> Answering the question: why not just share presets? Because Panel Colorizer barelly hold itself together and simply refuses to save the preset configuration file for some reason. So you’ll have to configure everything manually.
 
 You need to place one widget on the top panel and one on the bottom panel (you can place them anywhere, since the widget itself is transparent).
 Go to the Panel Colorizer settings on the bottom panel, navigate to the Appearance section, select the Panel element, then enable customization for the Normal state below. On the Color tab, select `Color source: Image` and specify the path to the `background_noise.png` file.
